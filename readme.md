@@ -173,5 +173,6 @@ kill $(lsof -t -i :xxxx)
 ```
 *replace xxxx with the port number
 
-CURL Example:
+CURL Examples:
 curl -X POST -d name="kiwi" -d color="green" -d readyToEat="on" localhost:3000/fruits
+curl -X DELETE localhost:3000/fruits/1
